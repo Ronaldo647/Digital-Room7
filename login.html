@@ -1,0 +1,31 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Iniciar Sesión - Full Chilling</title>
+  <link rel="stylesheet" href="login.css" href="login.js" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm" novalidate>
+      <label for="loginUsername">Usuario</label>
+      <input type="text" id="loginUsername" placeholder="Tu usuario" />
+      <span class="input-error"></span>
+
+      <label for="loginPassword">Contraseña</label>
+      <input type="password" id="loginPassword" placeholder="Tu contraseña" />
+      <span class="input-error"></span>
+
+      <button type="submit">Entrar</button>
+    </form>
+    <p class="switch-option">
+      ¿No tienes cuenta? <a href="registro.html">Regístrate</a>
+    </p>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
